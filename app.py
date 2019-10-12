@@ -40,9 +40,39 @@ print(round(2.6))
 print(floor(5.9))
 print(ceil(5.1))
 print(sqrt(49))
+print('\n')
 #---------------------------------------------------------------------
 #---------------------------------------------------------------------
 #-----------------------Inputs From Users-----------------------------
-name = input('Enter your name: ')
-age = input('Enter your age: ')
-print('Hello '+ name + '! ' + 'You are ' + age + '.')
+# name = input('Enter your name: ')
+# age = input('Enter your age: ')
+# print('Hello '+ name + '! ' + 'You are ' + age + '.')
+# print('\n')
+#---------------------------------------------------------------------
+#---------------------------------------------------------------------
+#-----------------------------Lists-----------------------------------
+lucky_numbers = [4, 8, 15, 16, 23, 43]
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+print(friends)
+friends.extend(lucky_numbers)
+print(friends)
+friends.append("Pythas")
+print(friends)
+friends.insert(1, "Agis")
+print(friends)
+friends.remove("Pythas")
+print(friends)
+friends.pop()
+print(friends)
+print(friends.index("Agis"))
+friends.insert(4, "Agis")
+print(friends)
+print(friends.count("Agis"))
+friends[7:] = []
+print(friends)
+friends.sort()
+print(friends)
+lucky_numbers.reverse()
+print(lucky_numbers)
+friends2 = friends.copy()
+print(friends2)
