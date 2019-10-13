@@ -5,6 +5,6 @@ def power_function(base, power):
     return result
 
 
-base = input("Give the base number: ")
-power = input("Give the power number: ")
-print(power_function(int(base), int(power)))
+base = int(input("Give the base number: "))
+power = int(input("Give the power number: "))
+print(power_function(base, power))
