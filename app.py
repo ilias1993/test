@@ -76,3 +76,23 @@ lucky_numbers.reverse()
 print(lucky_numbers)
 friends2 = friends.copy()
 print(friends2)
+print('\n')
+#---------------------------------------------------------------------
+#---------------------------------------------------------------------
+#--------------------------Dictionaries-------------------------------
+month_conversions = {
+    "Jan": "Januray",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December"
+}
+print(month_conversions["Sep"])
+print(month_conversions.get("Apr"))
